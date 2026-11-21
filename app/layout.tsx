@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata: Metadata = {title:{default:'Fauzi Sahawi — UI/UX & Product Designer',template:'%s — Fauzi Sahawi'},description:'Thoughtful design. Meaningful digital experiences. Explore the work of Fauzi Sahawi, a UI/UX and Product Designer with a builder’s mindset.',openGraph:{title:'Fauzi Sahawi — UI/UX & Product Designer',description:'Thoughtful design. Meaningful digital experiences.',type:'website',locale:'en_US'},twitter:{card:'summary',title:'Fauzi Sahawi — UI/UX & Product Designer',description:'Thoughtful design. Meaningful digital experiences.'},icons:{icon:'/favicon.svg',shortcut:'/favicon.svg'}};
+export default function RootLayout({children}:{children:React.ReactNode}) {return <html lang="en"><body><a href="#main" className="skip-link">Skip to content</a>{children}</body></html>}
